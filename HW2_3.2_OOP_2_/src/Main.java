@@ -11,16 +11,9 @@ public class Main {
 
         ServiceStation station = new ServiceStation();
 
-        ToServis queue = new Transport()[car, car2,truck,truck2,bicycle,bicycle2];
-        for (queue:ToServis) {
-            queue.toServis();
+        Transport[] queue = {car, car2,truck,truck2,bicycle,bicycle2};
+        for (queue:Transport) {
+            queue.to;
         }
-        /*station.check(car, null, null);
-        station.check(car2, null, null);
-        station.check(null, bicycle, null);
-        station.check(null, bicycle2, null);
-        station.check(null, null, truck);
-        station.check(null, null, truck2);
-        */
     }
 }
