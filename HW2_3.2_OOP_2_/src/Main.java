@@ -6,14 +6,15 @@ public class Main {
         Truck truck = new Truck("truck1", 6);
         Truck truck2 = new Truck("truck2", 8);
 
-        Bicycle bicycle = new Bicycle("bicycle1");
-        Bicycle bicycle2 = new Bicycle("bicycle2");
+        Bicycle bicycle = new Bicycle("bicycle1",2);
+        Bicycle bicycle2 = new Bicycle("bicycle2",2);
 
         ServiceStation station = new ServiceStation();
 
-        Transport[] queue = {car, car2,truck,truck2,bicycle,bicycle2};
-        for (queue:Transport) {
-            queue.to;
+        ToServis[] queue = {car, car2,truck,truck2,bicycle,bicycle2};
+
+        for (int i = 0; i < queue.length; i++) {
+            station.check(queue[i]);
         }
     }
 }

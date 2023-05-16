@@ -7,7 +7,9 @@ public class Car extends EngineTransport implements ToServis{
 
     @Override
     public void toServis() {
+        System.out.println("Делаем сервис для " + getModelName());
         updateTyre();
         checkEngine();
+        System.out.println();
     }
 }
